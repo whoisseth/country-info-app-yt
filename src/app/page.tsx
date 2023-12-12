@@ -97,7 +97,7 @@ export default function Home() {
 
       <section
         ref={animationParent}
-        className="flex flex-wrap gap-3 gap-y-9 md:justify-between justify-center"
+        className="grid grid-cols-5 gap-3 gap-y-9 md:justify-between justify-center"
       >
         {isLoading &&
           Array(10)
